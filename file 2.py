@@ -42,13 +42,13 @@ def ques3():
         list1.append(name)
         n=n-1
     print('')
-    print(list1)
+    print("The Original List" , list1)
     print('')
     x=int((len(list1))/2)
     list2.append(list1[:x])
     list3.append(list1[x:])
     list3.append(list2)
-    print(list3)
+    print("The Changed List", list3)
 
 def ques4():
     list1=[]
