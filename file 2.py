@@ -65,6 +65,6 @@ def ques4():
     for i in y:
         list1.remove(i)
     list1.append(y)
-        print("The Changed List", list1)
+    print("The Changed List", list1)
 
 ques4()
